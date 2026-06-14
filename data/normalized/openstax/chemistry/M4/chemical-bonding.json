@@ -1,0 +1,35 @@
+{
+  "doc_id": "openstax_chemistry_m4_chemical-bonding_introduction_b2ad94c80325",
+  "source": "openstax",
+  "source_url": "https://openstax.org/books/chemistry-2e/pages/7-introduction",
+  "source_title": "Introduction",
+  "subject": "chemistry",
+  "grade": "M4",
+  "topic": "Chemical Bonding",
+  "subtopic": "",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "text": "- 7.1 Ionic Bonding\n- 7.2 Covalent Bonding\n- 7.3 Lewis Symbols and Structures\n- 7.4 Formal Charges and Resonance\n- 7.5 Strengths of Ionic and Covalent Bonds\n- 7.6 Molecular Structure and Polarity",
+      "order": 1
+    },
+    {
+      "heading": "Introduction",
+      "text": "It has long been known that pure carbon occurs in different forms (allotropes) including graphite and diamonds. But it was not until 1985 that a new form of carbon was recognized: buckminsterfullerene. This molecule was named after the architect and inventor R. Buckminster Fuller (1895–1983), whose signature architectural design was the geodesic dome, characterized by a lattice shell structure supporting a spherical surface. Experimental evidence revealed the formula, C 60 , and then scientists determined how 60 carbon atoms could form one symmetric, stable molecule. They were guided by bonding theory—the topic of this chapter—which explains how individual atoms connect to form more complex structures.",
+      "order": 2
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n7.1\nNicknamed “buckyballs,” buckminsterfullerene molecules (C\n60\n) contain only carbon atoms (left) arranged to form a geometric framework of hexagons and pentagons, similar to the pattern on a soccer ball (center). This molecular structure is named after architect R. Buckminster Fuller, whose innovative designs combined simple geometric shapes to create large, strong structures such as this weather radar dome near Tucson, Arizona (right). (credit middle: modification of work by “Petey21”/Wikimedia Commons; credit right: modification of work by Bill Morrow)\nChapter Outline\n7.1\nIonic Bonding\n7.2\nCovalent Bonding\n7.3\nLewis Symbols and Structures\n7.4\nFormal Charges and Resonance\n7.5\nStrengths of Ionic and Covalent Bonds\n7.6\nMolecular Structure and Polarity\nIntroduction\nIt has long been known that pure carbon occurs in different forms (allotropes) including graphite and diamonds. But it was not until 1985 that a new form of carbon was recognized: buckminsterfullerene. This molecule was named after the architect and inventor R. Buckminster\nFuller\n(1895–1983), whose signature architectural design was the geodesic dome, characterized by a lattice shell structure supporting a spherical surface. Experimental evidence revealed the formula, C\n60\n, and then scientists determined how 60 carbon atoms could form one symmetric, stable molecule. They were guided by bonding theory—the topic of this chapter—which explains how individual atoms connect to form more complex structures.",
+  "metadata": {
+    "scraped_at": "2026-05-20T12:17:35Z",
+    "scraper_version": "v1",
+    "content_hash": "b2ad94c803254c8cefaaefd85937f6dfd445f85234b01322cb1de4195afa2d5f",
+    "normalization_status": "repaired",
+    "normalized_at": "2026-06-12T03:24:47Z"
+  }
+}

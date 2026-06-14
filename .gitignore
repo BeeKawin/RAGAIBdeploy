@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+vector_db/
+data/eval/results/
+data/eval/summaries/
+data/eval/live_queries/
+.pytest_cache/
+*.egg-info/

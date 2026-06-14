@@ -1,0 +1,35 @@
+{
+  "doc_id": "openstax_physics_m6_electromagnetic-induction_introduction-to-electromagnetic-induction-ac-circuits-and-electrical-technologies_1af276460962",
+  "source": "openstax",
+  "source_url": "https://openstax.org/books/college-physics-2e/pages/23-introduction-to-electromagnetic-induction-ac-circuits-and-electrical-technologies",
+  "source_title": "Introduction to Electromagnetic Induction, AC Circuits and Electrical Technologies",
+  "subject": "physics",
+  "grade": "M6",
+  "topic": "Electromagnetic Induction",
+  "subtopic": "",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "text": "- 23.1 Induced Emf and Magnetic Flux\n- 23.2 Faraday’s Law of Induction: Lenz’s Law\n- 23.3 Motional Emf\n- 23.4 Eddy Currents and Magnetic Damping\n- 23.5 Electric Generators\n- 23.6 Back Emf\n- 23.7 Transformers\n- 23.8 Electrical Safety: Systems and Devices\n- 23.9 Inductance\n- 23.10 RL Circuits\n- 23.11 Reactance, Inductive and Capacitive\n- 23.12 RLC Series AC Circuits",
+      "order": 1
+    },
+    {
+      "heading": "Introduction to Electromagnetic Induction, AC Circuits and Electrical Technologies",
+      "text": "Nature’s displays of symmetry are beautiful and alluring. A butterfly’s wings exhibit an appealing symmetry in a complex system. (See Figure 23.2 .) The laws of physics display symmetries at the most basic level—these symmetries are a source of wonder and imply deeper meaning. Since we place a high value on symmetry, we look for it when we explore nature. The remarkable thing is that we find it.\nThe hint of symmetry between electricity and magnetism found in the preceding chapter will be elaborated upon in this chapter. Specifically, we know that a current creates a magnetic field. If nature is symmetric here, then perhaps a magnetic field can create a current. The Hall effect is a voltage caused by a magnetic force. That voltage could drive a current. Historically, it was very shortly after Oersted discovered currents cause magnetic fields that other scientists asked the following question: Can magnetic fields cause currents? The answer was soon found by experiment to be yes. In 1831, some 12 years after Oersted’s discovery, the English scientist Michael Faraday (1791–1862) and the American scientist Joseph Henry (1797–1878) independently demonstrated that magnetic fields can produce currents. The basic process of generating emfs (electromotive force) and, hence, currents with magnetic fields is known as induction ; this process is also called magnetic induction to distinguish it from charging by induction, which utilizes the Coulomb force.\nToday, currents induced by magnetic fields are essential to our technological society. The ubiquitous generator—found in automobiles, on bicycles, in nuclear power plants, and so on—uses magnetism to generate current. Other devices that use magnetism to induce currents include pickup coils in electric guitars, transformers of every size, certain microphones, airport security gates, and damping mechanisms on sensitive chemical balances. Not so familiar perhaps, but important nevertheless, is that the behavior of AC circuits depends strongly on the effect of magnetic fields on currents.\nOpenStax AP Physics Chapter 23: Electromagnetic Induction (Physics Concept Trailer™)",
+      "order": 2
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n23.1\nThese wind turbines in the Thames Estuary in the UK are an example of induction at work. Wind pushes the blades of the turbine, spinning a shaft attached to magnets. The magnets spin around a conductive coil, inducing an electric current in the coil, and eventually feeding the electrical grid. (credit: modification of work by Petr Kratochvil)\nChapter Outline\n23.1\nInduced Emf and Magnetic Flux\n23.2\nFaraday’s Law of Induction: Lenz’s Law\n23.3\nMotional Emf\n23.4\nEddy Currents and Magnetic Damping\n23.5\nElectric Generators\n23.6\nBack Emf\n23.7\nTransformers\n23.8\nElectrical Safety: Systems and Devices\n23.9\nInductance\n23.10\nRL Circuits\n23.11\nReactance, Inductive and Capacitive\n23.12\nRLC Series AC Circuits\nIntroduction to Electromagnetic Induction, AC Circuits and Electrical Technologies\nNature’s displays of symmetry are beautiful and alluring. A butterfly’s wings exhibit an appealing symmetry in a complex system. (See\nFigure 23.2\n.) The laws of physics display symmetries at the most basic level—these symmetries are a source of wonder and imply deeper meaning. Since we place a high value on symmetry, we look for it when we explore nature. The remarkable thing is that we find it.\nFigure\n23.2\nPhysics, like this butterfly, has inherent symmetries. (credit: Thomas Bresson)\nThe hint of symmetry between electricity and magnetism found in the preceding chapter will be elaborated upon in this chapter. Specifically, we know that a current creates a magnetic field. If nature is symmetric here, then perhaps a magnetic field can create a current. The Hall effect is a voltage caused by a magnetic force. That voltage could drive a current. Historically, it was very shortly after Oersted discovered currents cause magnetic fields that other scientists asked the following question: Can magnetic fields cause currents? The answer was soon found by experiment to be yes. In 1831, some 12 years after Oersted’s discovery, the English scientist Michael Faraday (1791–1862) and the American scientist Joseph Henry (1797–1878) independently demonstrated that magnetic fields can produce currents. The basic process of generating emfs (electromotive force) and, hence, currents with magnetic fields is known as\ninduction\n; this process is also called magnetic induction to distinguish it from charging by induction, which utilizes the Coulomb force.\nToday, currents induced by magnetic fields are essential to our technological society. The ubiquitous generator—found in automobiles, on bicycles, in nuclear power plants, and so on—uses magnetism to generate current. Other devices that use magnetism to induce currents include pickup coils in electric guitars, transformers of every size, certain microphones, airport security gates, and damping mechanisms on sensitive chemical balances. Not so familiar perhaps, but important nevertheless, is that the behavior of AC circuits depends strongly on the effect of magnetic fields on currents.\nOpenStax AP Physics Chapter 23: Electromagnetic Induction (Physics Concept Trailer™)",
+  "metadata": {
+    "scraped_at": "2026-05-20T12:18:01Z",
+    "scraper_version": "v1",
+    "content_hash": "1af276460962febbe44fc9dbda32fc55eec2d734a9e7d9585b1ed6b578712d50",
+    "normalization_status": "repaired",
+    "normalized_at": "2026-06-12T03:24:49Z"
+  }
+}

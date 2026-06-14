@@ -1,0 +1,23 @@
+{
+  "subject": "biology",
+  "grade": "M6",
+  "topic": "Immune System",
+  "url": "https://openstax.org/books/biology-2e/pages/42-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 42.1 Innate Immune Response\n- 42.2 Adaptive Immune Response\n- 42.3 Antibodies\n- 42.4 Disruptions in the Immune System"
+    },
+    {
+      "heading": "Introduction",
+      "content": "The environment consists of numerous pathogens , which are agents, usually microorganisms, that cause diseases in their hosts. A host is the organism that is invaded and often harmed by a pathogen. Pathogens include bacteria, protists, fungi and other infectious organisms. We are constantly exposed to pathogens in food and water, on surfaces, and in the air. Mammalian immune systems evolved for protection from such pathogens; they are composed of an extremely diverse array of specialized cells and soluble molecules that coordinate a rapid and flexible defense system capable of providing protection from a majority of these disease agents.\nComponents of the immune system constantly search the body for signs of pathogens. When pathogens are found, immune factors are mobilized to the site of an infection. The immune factors identify the nature of the pathogen, strengthen the corresponding cells and molecules to combat it efficiently, and then halt the immune response after the infection is cleared to avoid unnecessary host cell damage. The immune system can remember pathogens to which it has been exposed to create a more efficient response upon reexposure. This memory can last several decades. Features of the immune system, such as pathogen identification, specific response, amplification, retreat, and remembrance are essential for survival against pathogens. The immune response can be classified as either innate or adaptive. The innate immune response is always present and attempts to defend against all pathogens rather than focusing on specific ones. Conversely, the adaptive immune response stores information about past infections and mounts pathogen-specific defenses."
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n42.1\nIn this compound light micrograph purple-stained neutrophil (upper left) and eosinophil (lower right) are white blood cells that float among red blood cells in this blood smear. Neutrophils provide an early, rapid, and nonspecific defense against invading pathogens. Eosinophils play a variety of roles in the immune response. Red blood cells are about 7–8 µm in diameter, and a neutrophil is about 10–12µm. (credit: modification of work by Dr. David Csaba)\nChapter Outline\n42.1\nInnate Immune Response\n42.2\nAdaptive Immune Response\n42.3\nAntibodies\n42.4\nDisruptions in the Immune System\nIntroduction\nThe environment consists of numerous\npathogens\n, which are agents, usually microorganisms, that cause diseases in their hosts. A\nhost\nis the organism that is invaded and often harmed by a pathogen. Pathogens include bacteria, protists, fungi and other infectious organisms. We are constantly exposed to pathogens in food and water, on surfaces, and in the air. Mammalian immune systems evolved for protection from such pathogens; they are composed of an extremely diverse array of specialized cells and soluble molecules that coordinate a rapid and flexible defense system capable of providing protection from a majority of these disease agents.\nComponents of the immune system constantly search the body for signs of pathogens. When pathogens are found, immune factors are mobilized to the site of an infection. The immune factors identify the nature of the pathogen, strengthen the corresponding cells and molecules to combat it efficiently, and then halt the immune response after the infection is cleared to avoid unnecessary host cell damage. The immune system can remember pathogens to which it has been exposed to create a more efficient response upon reexposure. This memory can last several decades. Features of the immune system, such as pathogen identification, specific response, amplification, retreat, and remembrance are essential for survival against pathogens. The immune response can be classified as either innate or adaptive. The innate immune response is always present and attempts to defend against all pathogens rather than focusing on specific ones. Conversely, the adaptive immune response stores information about past infections and mounts pathogen-specific defenses.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:18:20Z"
+}

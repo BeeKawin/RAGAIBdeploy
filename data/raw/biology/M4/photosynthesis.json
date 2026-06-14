@@ -1,0 +1,23 @@
+{
+  "subject": "biology",
+  "grade": "M4",
+  "topic": "Photosynthesis",
+  "url": "https://openstax.org/books/biology-2e/pages/8-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 8.1 Overview of Photosynthesis\n- 8.2 The Light-Dependent Reactions of Photosynthesis\n- 8.3 Using Light Energy to Make Organic Molecules"
+    },
+    {
+      "heading": "Introduction",
+      "content": "The metabolic processes in all organisms—from bacteria to humans—require energy. To get this energy, many organisms access stored energy by eating, that is, by ingesting other organisms. But where does the stored energy in food originate? All of this energy can be traced back to photosynthesis."
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n8.1\nThis world map shows Earth’s distribution of photosynthetic activity determined by chlorophyll\na\nconcentrations. On land, chlorophyll is evident from terrestrial plants, and within oceanic zones, from chlorophyll from phytoplankton. (credit: modification of work by SeaWiFS Project, NASA/Goddard Space Flight Center and ORBIMAGE)\nChapter Outline\n8.1\nOverview of Photosynthesis\n8.2\nThe Light-Dependent Reactions of Photosynthesis\n8.3\nUsing Light Energy to Make Organic Molecules\nIntroduction\nThe metabolic processes in all organisms—from bacteria to humans—require energy. To get this energy, many organisms access stored energy by eating, that is, by ingesting other organisms. But where does the stored energy in food originate? All of this energy can be traced back to photosynthesis.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:37Z"
+}

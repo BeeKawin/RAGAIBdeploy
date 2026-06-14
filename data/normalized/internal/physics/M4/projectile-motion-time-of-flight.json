@@ -1,0 +1,29 @@
+{
+  "doc_id": "internal_physics_m4_projectile_motion_time_of_flight",
+  "source": "ragaib_internal",
+  "source_url": "internal://physics/M4/projectile-motion-time-of-flight",
+  "source_title": "Projectile Motion and Time of Flight",
+  "subject": "physics",
+  "grade": "M4",
+  "topic": "Projectile Motion",
+  "subtopic": "Time of Flight",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Time of Flight",
+      "text": "Projectile motion can be split into horizontal and vertical motion. For a projectile launched from the ground and landing at the same height, the total time of flight depends on the vertical component of the initial velocity. The shortcut formula is T = 2u sin(theta) / g, where u is the launch speed, theta is the launch angle above the horizontal, and g is gravitational acceleration. This formula comes from vertical motion: the projectile rises until vertical velocity becomes zero, then falls back to the launch height. For theta = 30 degrees, sin(theta) = 0.5.",
+      "order": 1
+    }
+  ],
+  "key_terms": ["Projectile Motion", "Time of Flight", "Vertical Component", "Launch Angle"],
+  "equations": ["T = 2u sin(theta) / g", "uy = u sin(theta)"],
+  "examples": ["If u = 50 m/s, theta = 30 degrees, and g = 10 m/s^2, then T = 2(50)(0.5)/10 = 5 s."],
+  "raw_text": "Projectile motion can be split into horizontal and vertical parts. For launch and landing at the same height, the time of flight is T = 2u sin(theta) / g. With u = 50 m/s, theta = 30 degrees, and g = 10 m/s^2, T = 5 s.",
+  "metadata": {
+    "scraped_at": "",
+    "scraper_version": "internal-v1",
+    "content_hash": "internal_physics_m4_projectile_motion_time_of_flight_v1",
+    "normalization_status": "clean"
+  }
+}

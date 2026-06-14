@@ -1,0 +1,35 @@
+{
+  "doc_id": "openstax_biology_m4_biochemistry-and-biomolecules_introduction_0807d8f904fe",
+  "source": "openstax",
+  "source_url": "https://openstax.org/books/biology-2e/pages/3-introduction",
+  "source_title": "Introduction",
+  "subject": "biology",
+  "grade": "M4",
+  "topic": "Biochemistry and Biomolecules",
+  "subtopic": "",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "text": "- 3.1 Synthesis of Biological Macromolecules\n- 3.2 Carbohydrates\n- 3.3 Lipids\n- 3.4 Proteins\n- 3.5 Nucleic Acids",
+      "order": 1
+    },
+    {
+      "heading": "Introduction",
+      "text": "Food provides the body with the nutrients it needs to survive. Many of these critical nutrients are biological macromolecules, or large molecules, necessary for life. Different smaller organic molecule (monomer) combinations build these macromolecules (polymers). What specific biological macromolecules do living things require? How do these molecules form? What functions do they serve? We explore these questions in this chapter.",
+      "order": 2
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n3.1\nFoods such as bread, fruit, and cheese are rich sources of biological macromolecules. (credit: modification of work by Bengt Nyman)\nChapter Outline\n3.1\nSynthesis of Biological Macromolecules\n3.2\nCarbohydrates\n3.3\nLipids\n3.4\nProteins\n3.5\nNucleic Acids\nIntroduction\nFood provides the body with the nutrients it needs to survive. Many of these critical nutrients are biological macromolecules, or large molecules, necessary for life. Different smaller organic molecule (monomer) combinations build these macromolecules (polymers). What specific biological macromolecules do living things require? How do these molecules form? What functions do they serve? We explore these questions in this chapter.",
+  "metadata": {
+    "scraped_at": "2026-05-20T12:18:23Z",
+    "scraper_version": "v1",
+    "content_hash": "0807d8f904fe6e94042848fca2f77de811d5a076b2b2bd205a0da395228b43c5",
+    "normalization_status": "repaired",
+    "normalized_at": "2026-06-12T03:24:46Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "doc_id": "internal_physics_m6_electromagnetic_waves",
+  "source": "ragaib_internal",
+  "source_url": "internal://physics/M6/electromagnetic-waves",
+  "source_title": "Electromagnetic Waves",
+  "subject": "physics",
+  "grade": "M6",
+  "topic": "Electromagnetic Wave",
+  "subtopic": "Properties of Electromagnetic Waves",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Properties of Electromagnetic Waves",
+      "text": "Electromagnetic waves are waves made from changing electric and magnetic fields. The electric field and magnetic field oscillate perpendicular to each other, and both are perpendicular to the direction the wave travels. Electromagnetic waves do not need a material medium, so they can travel through vacuum. In vacuum, all electromagnetic waves travel at the speed of light, about 3.0 x 10^8 m/s. The electromagnetic spectrum includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. These waves differ mainly in wavelength, frequency, and energy.",
+      "order": 1
+    }
+  ],
+  "key_terms": ["Electromagnetic Wave", "Electric Field", "Magnetic Field", "Speed of Light", "Electromagnetic Spectrum"],
+  "equations": ["c = 3.0 x 10^8 m/s", "c = fλ"],
+  "examples": [],
+  "raw_text": "Electromagnetic waves consist of changing electric and magnetic fields. They can travel through vacuum at about 3.0 x 10^8 m/s. Examples include radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.",
+  "metadata": {
+    "scraped_at": "",
+    "scraper_version": "internal-v1",
+    "content_hash": "internal_physics_m6_electromagnetic_waves_v1",
+    "normalization_status": "clean"
+  }
+}

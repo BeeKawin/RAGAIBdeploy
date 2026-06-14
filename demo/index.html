@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RAGAI-B Live Eval Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">RAGAI-B Demo</p>
+        <h1>Live RAG vs Baseline Evaluation</h1>
+      </div>
+      <div class="status" id="status">Ready</div>
+    </header>
+
+    <main class="shell">
+      <section class="intro panel">
+        <div class="section-head">
+          <h2>Homepage Description</h2>
+          <button id="resetIntro" type="button">Reset</button>
+        </div>
+        <div id="introText" class="editable" contenteditable="true" spellcheck="true">
+          This demo compares a curriculum-grounded RAG answer against a baseline LLM answer. Edit this text to describe your current RAG system, dataset, vector database, or evaluation goal.
+        </div>
+        <p class="hint">This text is saved in your browser only.</p>
+      </section>
+
+      <section class="workspace">
+        <form id="evalForm" class="panel controls">
+          <div class="section-head">
+            <h2>Test Query</h2>
+            <button id="runButton" type="submit">Run Evaluation</button>
+          </div>
+
+          <label class="field field-full">
+            <span>Question</span>
+            <textarea id="message" required rows="5" placeholder="Ask a high-school science or math question...">What is Newton's second law?</textarea>
+          </label>
+
+          <div class="grid">
+            <label class="field">
+              <span>Subject</span>
+              <select id="subject">
+                <option value="">Auto</option>
+                <option value="physics" selected>Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="biology">Biology</option>
+                <option value="math">Mathematics</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Grade</span>
+              <select id="grade">
+                <option value="">Auto</option>
+                <option value="M4" selected>M4</option>
+                <option value="M5">M5</option>
+                <option value="M6">M6</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Language</span>
+              <select id="language">
+                <option value="">Match question</option>
+                <option value="EN" selected>English</option>
+                <option value="TH">Thai</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Answer Type</span>
+              <select id="preferredAnswerType">
+                <option value="general">General</option>
+                <option value="quick-answer">Quick answer</option>
+                <option value="concept-focused">Concept focused</option>
+                <option value="homework-help" selected>Homework help</option>
+                <option value="exam-prep">Exam prep</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Source</span>
+              <select id="source">
+                <option value="">Auto route</option>
+                <option value="openstax">OpenStax</option>
+                <option value="scimath">SciMath</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Top K</span>
+              <input id="topK" type="number" min="1" max="12" value="6" />
+            </label>
+          </div>
+
+          <label class="field field-full">
+            <span>Baseline Model Override</span>
+            <input id="baselineModel" type="text" placeholder="Optional, e.g. openrouter/free" />
+          </label>
+
+          <label class="field field-full">
+            <span>API Base URL</span>
+            <input id="apiBaseUrl" type="url" placeholder="Local same-origin, or https://your-api.up.railway.app" />
+          </label>
+        </form>
+
+        <section class="results">
+          <div class="comparison panel" id="comparison">
+            <div class="section-head">
+              <h2>Final Comparison</h2>
+              <span id="winnerBadge" class="badge muted">No run yet</span>
+            </div>
+            <p id="comparisonText" class="empty">Run an evaluation to see the judge comparison.</p>
+            <p id="savedPath" class="hint"></p>
+          </div>
+
+          <div class="answer-grid">
+            <article class="panel answer">
+              <div class="section-head">
+                <h2>RAG Answer</h2>
+                <span id="ragBand" class="score">-</span>
+              </div>
+              <pre id="ragAnswer" class="answer-text empty">No RAG answer yet.</pre>
+              <div id="ragMetrics" class="metrics"></div>
+            </article>
+
+            <article class="panel answer">
+              <div class="section-head">
+                <h2>Baseline Answer</h2>
+                <span id="baselineBand" class="score">-</span>
+              </div>
+              <pre id="baselineAnswer" class="answer-text empty">No baseline answer yet.</pre>
+              <div id="baselineMetrics" class="metrics"></div>
+            </article>
+          </div>
+
+          <section class="panel">
+            <div class="section-head">
+              <h2>Retrieved Chunks</h2>
+              <span id="chunkCount" class="badge muted">0 chunks</span>
+            </div>
+            <div id="sources" class="sources empty">Retrieved chunks will appear here.</div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <template id="sourceTemplate">
+      <article class="source-card">
+        <div class="source-meta"></div>
+        <h3></h3>
+        <p></p>
+      </article>
+    </template>
+
+    <script src="./config.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

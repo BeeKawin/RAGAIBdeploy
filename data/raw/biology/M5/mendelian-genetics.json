@@ -1,0 +1,23 @@
+{
+  "subject": "biology",
+  "grade": "M5",
+  "topic": "Mendelian Genetics",
+  "url": "https://openstax.org/books/biology-2e/pages/12-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 12.1 Mendel’s Experiments and the Laws of Probability\n- 12.2 Characteristics and Traits\n- 12.3 Laws of Inheritance"
+    },
+    {
+      "heading": "Introduction",
+      "content": "Genetics is the study of heredity. Johann Gregor Mendel set the framework for genetics long before chromosomes or genes had been identified, at a time when meiosis was not well understood. Mendel selected a simple biological system and conducted methodical, quantitative analyses using large sample sizes. Because of Mendel’s work, the fundamental principles of heredity were revealed. We now know that genes, carried on chromosomes, are the basic functional units of heredity with the capability to be replicated, expressed, or mutated. Today, the postulates put forth by Mendel form the basis of classical, or Mendelian, genetics. Not all traits are transmitted from parents to offspring according to Mendelian genetics, but Mendel’s experiments serve as an excellent starting point for thinking about inheritance."
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n12.1\nExperimenting with thousands of garden peas, Mendel uncovered the fundamentals of genetics. (credit: modification of work by Jerry Kirkhart)\nChapter Outline\n12.1\nMendel’s Experiments and the Laws of Probability\n12.2\nCharacteristics and Traits\n12.3\nLaws of Inheritance\nIntroduction\nGenetics is the study of heredity. Johann Gregor Mendel set the framework for genetics long before chromosomes or genes had been identified, at a time when meiosis was not well understood. Mendel selected a simple biological system and conducted methodical, quantitative analyses using large sample sizes. Because of Mendel’s work, the fundamental principles of heredity were revealed. We now know that genes, carried on chromosomes, are the basic functional units of heredity with the capability to be replicated, expressed, or mutated. Today, the postulates put forth by Mendel form the basis of classical, or Mendelian, genetics. Not all traits are transmitted from parents to offspring according to Mendelian genetics, but Mendel’s experiments serve as an excellent starting point for thinking about inheritance.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:58Z"
+}

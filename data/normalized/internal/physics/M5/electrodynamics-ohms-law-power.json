@@ -1,0 +1,29 @@
+{
+  "doc_id": "internal_physics_m5_electrodynamics_ohms_law_power",
+  "source": "ragaib_internal",
+  "source_url": "internal://physics/M5/electrodynamics-ohms-law-power",
+  "source_title": "Electrodynamics, Ohm's Law, and Electric Power",
+  "subject": "physics",
+  "grade": "M5",
+  "topic": "Electrodynamics",
+  "subtopic": "Ohm's Law and Electric Power",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Ohm's Law and Electric Power",
+      "text": "Ohm's law describes the relationship between voltage, current, and resistance. The formula is V = IR. Voltage is the energy push that drives charge through a circuit, current is the rate of flow of charge, and resistance opposes that flow. If resistance is constant, increasing voltage increases current. Electric power is the rate at which electrical energy is transferred or used. The main formula is P = IV. Combining this with Ohm's law gives P = I^2R and P = V^2/R. These equations are useful for circuits, appliances, and energy calculations.",
+      "order": 1
+    }
+  ],
+  "key_terms": ["Electrodynamics", "Ohm's Law", "Electric Power", "Voltage", "Current", "Resistance"],
+  "equations": ["V = IR", "P = IV", "P = I^2R", "P = V^2/R"],
+  "examples": [],
+  "raw_text": "Ohm's law is V = IR. Voltage drives current through resistance. Electric power is the rate of electrical energy transfer and is given by P = IV. With Ohm's law, power can also be written as P = I^2R or P = V^2/R.",
+  "metadata": {
+    "scraped_at": "",
+    "scraper_version": "internal-v1",
+    "content_hash": "internal_physics_m5_electrodynamics_ohms_law_power_v1",
+    "normalization_status": "clean"
+  }
+}

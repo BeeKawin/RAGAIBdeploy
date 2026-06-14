@@ -1,0 +1,29 @@
+{
+  "doc_id": "internal_physics_m6_specific_heat_capacity",
+  "source": "ragaib_internal",
+  "source_url": "internal://physics/M6/specific-heat-capacity",
+  "source_title": "Specific Heat Capacity",
+  "subject": "physics",
+  "grade": "M6",
+  "topic": "Thermal Physics",
+  "subtopic": "Specific Heat Capacity",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Specific Heat Capacity",
+      "text": "Specific heat capacity is the amount of heat energy needed to raise the temperature of 1 kg of a substance by 1 degree Celsius or 1 kelvin. The formula is Q = mcΔT, where Q is heat energy in joules, m is mass in kilograms, c is specific heat capacity in J/(kg°C), and ΔT is the temperature change. To solve heating problems, first calculate ΔT = final temperature minus initial temperature, then substitute the mass, specific heat capacity, and temperature change into Q = mcΔT. For water, a common value is c = 4200 J/(kg°C).",
+      "order": 1
+    }
+  ],
+  "key_terms": ["Thermal Physics", "Specific Heat Capacity", "Heat", "Temperature Change"],
+  "equations": ["Q = mcΔT", "ΔT = Tfinal - Tinitial"],
+  "examples": ["For 2 kg of water heated from 25°C to 75°C, ΔT = 50°C and Q = 2 x 4200 x 50 = 420000 J."],
+  "raw_text": "Specific heat capacity is the heat needed to raise 1 kg of a substance by 1°C. Use Q = mcΔT, where ΔT is final temperature minus initial temperature. For water, c is often 4200 J/(kg°C).",
+  "metadata": {
+    "scraped_at": "",
+    "scraper_version": "internal-v1",
+    "content_hash": "internal_physics_m6_specific_heat_capacity_v1",
+    "normalization_status": "clean"
+  }
+}

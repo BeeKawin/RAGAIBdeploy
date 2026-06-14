@@ -1,0 +1,35 @@
+{
+  "doc_id": "openstax_biology_m6_ecology-and-ecosystems_introduction_6fe382f33a44",
+  "source": "openstax",
+  "source_url": "https://openstax.org/books/biology-2e/pages/44-introduction",
+  "source_title": "Introduction",
+  "subject": "biology",
+  "grade": "M6",
+  "topic": "Ecology and Ecosystems",
+  "subtopic": "",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "text": "- 44.1 The Scope of Ecology\n- 44.2 Biogeography\n- 44.3 Terrestrial Biomes\n- 44.4 Aquatic Biomes\n- 44.5 Climate and the Effects of Global Climate Change",
+      "order": 1
+    },
+    {
+      "heading": "Introduction",
+      "text": "Why study ecology? Perhaps you are interested in learning about the natural world and how living things have adapted to the physical conditions of their environment. Or, perhaps you’re a future physician seeking to understand the connection between your patients' health and their environment.\nHumans are a part of the ecological landscape, and human health is one important part of human interaction with our physical and living environment. Lyme disease, for instance, serves as one modern-day example of the connection between our health and the natural world ( Figure 44.1 ). More formally known as Lyme borreliosis, Lyme disease is a bacterial infection that can be transmitted to humans when they are bitten by the deer tick ( Ixodes scapularis in the eastern U.S., and Ixodes pacificus along the Pacific coast). Deer ticks are the primary vectors (a vector is an organism that transmits a pathogen) for this disease. However, not all ticks carry the pathogen, and not all deer ticks carry the bacteria that will cause Lyme disease in humans. Also, the ticks I. scapularis and pacificus can have other hosts besides deer. In fact, it turns out that the probability of infection depends on the type of host upon which the tick develops: a higher proportion of ticks that live on white-footed mice carry the bacterium than do ticks that live on deer. Knowledge about the environments and population densities in which the host species is abundant would help a physician or an epidemiologist better understand how Lyme disease is transmitted and how its incidence could be reduced.",
+      "order": 2
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n44.1\nThe (a) deer tick carries the bacterium that produces Lyme disease in humans, often evident in (b) a symptomatic bull’s eye rash. The (c) white-footed mouse is one well-known host to deer ticks carrying the Lyme disease bacterium. (credit a: modification of work by Scott Bauer, USDA ARS; credit b: modification of work by James Gathany, CDC; credit c: modification of work by Rob Ireton)\nChapter Outline\n44.1\nThe Scope of Ecology\n44.2\nBiogeography\n44.3\nTerrestrial Biomes\n44.4\nAquatic Biomes\n44.5\nClimate and the Effects of Global Climate Change\nIntroduction\nWhy study ecology? Perhaps you are interested in learning about the natural world and how living things have adapted to the physical conditions of their environment. Or, perhaps you’re a future physician seeking to understand the connection between your patients' health and their environment.\nHumans are a part of the ecological landscape, and human health is one important part of human interaction with our physical and living environment. Lyme disease, for instance, serves as one modern-day example of the connection between our health and the natural world (\nFigure 44.1\n). More formally known as Lyme borreliosis, Lyme disease is a bacterial infection that can be transmitted to humans when they are bitten by the deer tick (\nIxodes scapularis\nin the eastern U.S., and\nIxodes pacificus\nalong the Pacific coast). Deer ticks are the primary\nvectors\n(a vector is an organism that transmits a pathogen) for this disease. However, not all ticks carry the pathogen, and not all deer ticks carry the bacteria that will cause Lyme disease in humans. Also, the ticks\nI. scapularis\nand\npacificus\ncan have other hosts besides deer. In fact, it turns out that the\nprobability of infection\ndepends on the type of host upon which the tick develops: a higher proportion of ticks that live on white-footed mice carry the bacterium than do ticks that live on deer. Knowledge about the environments and population densities in which the host species is abundant would help a physician or an epidemiologist better understand how Lyme disease is transmitted and how its incidence could be reduced.",
+  "metadata": {
+    "scraped_at": "2026-05-20T12:18:15Z",
+    "scraper_version": "v1",
+    "content_hash": "6fe382f33a44efb2eee981426b5ae1a677823e2671a56ca4cfce99547c0d2f38",
+    "normalization_status": "repaired",
+    "normalized_at": "2026-06-12T03:24:46Z"
+  }
+}

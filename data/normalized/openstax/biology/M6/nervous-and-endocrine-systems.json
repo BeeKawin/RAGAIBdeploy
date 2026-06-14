@@ -1,0 +1,35 @@
+{
+  "doc_id": "openstax_biology_m6_nervous-and-endocrine-systems_introduction_c70521813416",
+  "source": "openstax",
+  "source_url": "https://openstax.org/books/biology-2e/pages/35-introduction",
+  "source_title": "Introduction",
+  "subject": "biology",
+  "grade": "M6",
+  "topic": "Nervous and Endocrine Systems",
+  "subtopic": "",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "text": "- 35.1 Neurons and Glial Cells\n- 35.2 How Neurons Communicate\n- 35.3 The Central Nervous System\n- 35.4 The Peripheral Nervous System\n- 35.5 Nervous System Disorders",
+      "order": 1
+    },
+    {
+      "heading": "Introduction",
+      "text": "When you’re reading this book, your nervous system is performing several functions simultaneously. The visual system is processing what is seen on the page; the motor system controls the turn of the pages (or click of the mouse); the prefrontal cortex maintains attention. Even fundamental functions, like breathing and regulation of body temperature, are controlled by the nervous system. A nervous system is an organism’s control center: it processes sensory information from outside (and inside) the body and controls all behaviors—from eating to sleeping to finding a mate.",
+      "order": 2
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n35.1\nAn athlete’s nervous system is hard at work during the planning and execution of a movement as precise as a high jump. Parts of the nervous system are involved in determining how hard to push off and when to turn, as well as controlling the muscles throughout the body that make this complicated movement possible without knocking the bar down—all in just a few seconds. (credit: Steven Pisano)\nChapter Outline\n35.1\nNeurons and Glial Cells\n35.2\nHow Neurons Communicate\n35.3\nThe Central Nervous System\n35.4\nThe Peripheral Nervous System\n35.5\nNervous System Disorders\nIntroduction\nWhen you’re reading this book, your nervous system is performing several functions simultaneously. The visual system is processing what is seen on the page; the motor system controls the turn of the pages (or click of the mouse); the prefrontal cortex maintains attention. Even fundamental functions, like breathing and regulation of body temperature, are controlled by the nervous system. A nervous system is an organism’s control center: it processes sensory information from outside (and inside) the body and controls all behaviors—from eating to sleeping to finding a mate.",
+  "metadata": {
+    "scraped_at": "2026-05-20T12:18:10Z",
+    "scraper_version": "v1",
+    "content_hash": "c70521813416d416aa0f45a39e77b46112b6cc97895ad01c963778f3eca2b2fd",
+    "normalization_status": "repaired",
+    "normalized_at": "2026-06-12T03:24:47Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "doc_id": "internal_physics_m5_electrostatics_coulombs_law",
+  "source": "ragaib_internal",
+  "source_url": "internal://physics/M5/electrostatics-coulombs-law",
+  "source_title": "ไฟฟ้าสถิตและกฎของคูลอมบ์",
+  "subject": "physics",
+  "grade": "M5",
+  "topic": "ไฟฟ้าสถิต",
+  "subtopic": "กฎของคูลอมบ์",
+  "language": "TH",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "กฎของคูลอมบ์",
+      "text": "ไฟฟ้าสถิตศึกษาแรงและสนามไฟฟ้าที่เกิดจากประจุไฟฟ้าที่อยู่นิ่ง กฎของคูลอมบ์ใช้หาแรงไฟฟ้าระหว่างประจุสองตัว มีสูตร F = kq1q2/r^2 โดย q1 และ q2 คือค่าประจุ มีหน่วยคูลอมบ์ r คือระยะห่างระหว่างประจุ และ k = 9 x 10^9 N m^2/C^2 ในสุญญากาศ ก่อนแทนค่าต้องแปลงไมโครคูลอมบ์เป็นคูลอมบ์ เช่น 1 μC = 1 x 10^-6 C แรงระหว่างประจุชนิดเดียวกันเป็นแรงผลัก และประจุต่างชนิดกันเป็นแรงดึงดูด",
+      "order": 1
+    }
+  ],
+  "key_terms": ["ไฟฟ้าสถิต", "กฎของคูลอมบ์", "แรงไฟฟ้า", "ประจุไฟฟ้า"],
+  "equations": ["F = kq1q2/r^2", "1 μC = 1 x 10^-6 C"],
+  "examples": [],
+  "raw_text": "ไฟฟ้าสถิตศึกษาแรงระหว่างประจุที่อยู่นิ่ง กฎของคูลอมบ์คือ F = kq1q2/r^2 โดยต้องแปลงหน่วยประจุเป็นคูลอมบ์ก่อน เช่น μC เป็น 10^-6 C ประจุชนิดเดียวกันผลักกันและประจุต่างชนิดกันดึงดูดกัน",
+  "metadata": {
+    "scraped_at": "",
+    "scraper_version": "internal-v1",
+    "content_hash": "internal_physics_m5_electrostatics_coulombs_law_v1",
+    "normalization_status": "clean"
+  }
+}

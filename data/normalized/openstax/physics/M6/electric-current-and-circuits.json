@@ -1,0 +1,35 @@
+{
+  "doc_id": "openstax_physics_m6_electric-current-and-circuits_introduction-to-electric-current-resistance-and-ohm-s-law_1746e543a546",
+  "source": "openstax",
+  "source_url": "https://openstax.org/books/college-physics-2e/pages/20-introduction-to-electric-current-resistance-and-ohms-law",
+  "source_title": "Introduction to Electric Current, Resistance, and Ohm's Law",
+  "subject": "physics",
+  "grade": "M6",
+  "topic": "Electric Current and Circuits",
+  "subtopic": "",
+  "language": "EN",
+  "content_type": "lesson",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "text": "- 20.1 Current\n- 20.2 Ohm’s Law: Resistance and Simple Circuits\n- 20.3 Resistance and Resistivity\n- 20.4 Electric Power and Energy\n- 20.5 Alternating Current versus Direct Current\n- 20.6 Electric Hazards and the Human Body\n- 20.7 Nerve Conduction–Electrocardiograms",
+      "order": 1
+    },
+    {
+      "heading": "Introduction to Electric Current, Resistance, and Ohm's Law",
+      "text": "The flicker of numbers on a handheld calculator, nerve impulses carrying signals of vision to the brain, an ultrasound device sending a signal to a computer screen, the brain sending a message for a baby to twitch its toes, an electric train pulling its load over a mountain pass, a hydroelectric plant sending energy to metropolitan and rural users—these and many other examples of electricity involve electric current, the movement of charge . Humankind has indeed harnessed electricity, the basis of technology, to improve our quality of life. Whereas the previous two chapters concentrated on static electricity and the fundamental force underlying its behavior, the next few chapters will be devoted to electric and magnetic phenomena involving current. In addition to exploring applications of electricity, we shall gain new insights into nature—in particular, the fact that all magnetism results from electric current.\nOpenStax AP Physics Chapter 20: DC Circuits (Physics Concept Trailer™)",
+      "order": 2
+    }
+  ],
+  "key_terms": [],
+  "equations": [],
+  "examples": [],
+  "raw_text": "Figure\n20.1\nElectric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge—that is, by electric current. (credit: Chintohere, Wikimedia Commons)\nChapter Outline\n20.1\nCurrent\n20.2\nOhm’s Law: Resistance and Simple Circuits\n20.3\nResistance and Resistivity\n20.4\nElectric Power and Energy\n20.5\nAlternating Current versus Direct Current\n20.6\nElectric Hazards and the Human Body\n20.7\nNerve Conduction–Electrocardiograms\nIntroduction to Electric Current, Resistance, and Ohm's Law\nThe flicker of numbers on a handheld calculator, nerve impulses carrying signals of vision to the brain, an ultrasound device sending a signal to a computer screen, the brain sending a message for a baby to twitch its toes, an electric train pulling its load over a mountain pass, a hydroelectric plant sending energy to metropolitan and rural users—these and many other examples of electricity involve\nelectric current, the movement of charge\n. Humankind has indeed harnessed electricity, the basis of technology, to improve our quality of life. Whereas the previous two chapters concentrated on static electricity and the fundamental force underlying its behavior, the next few chapters will be devoted to electric and magnetic phenomena involving current. In addition to exploring applications of electricity, we shall gain new insights into nature—in particular, the fact that all magnetism results from electric current.\nOpenStax AP Physics Chapter 20: DC Circuits (Physics Concept Trailer™)",
+  "metadata": {
+    "scraped_at": "2026-05-20T12:17:39Z",
+    "scraper_version": "v1",
+    "content_hash": "1746e543a546f70655a0b415593f5047ec6623c07ae33b07554d64b1b1838360",
+    "normalization_status": "repaired",
+    "normalized_at": "2026-06-12T03:24:49Z"
+  }
+}
