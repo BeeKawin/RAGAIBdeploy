@@ -79,6 +79,39 @@ class TestLiveQueryEval(unittest.TestCase):
         self.assertEqual(result.rag_scores.target_answer_type, "homework-help")
         self.assertEqual(result.baseline_scores.groundedness, 2)
 
+    def test_parse_live_judge_response_clamps_malformed_numeric_scores(self):
+        raw = json.dumps(
+            {
+                "rag_scores": {
+                    "correctness": 0,
+                    "groundedness": "6",
+                    "completeness": 3.4,
+                    "clarity": 5,
+                    "type_alignment": 2,
+                    "detected_answer_type": "general",
+                    "rationale": "Malformed numeric scores were repaired.",
+                },
+                "baseline_scores": {
+                    "correctness": "0",
+                    "groundedness": 1,
+                    "completeness": 2,
+                    "clarity": 3,
+                    "type_alignment": 4,
+                    "detected_answer_type": "general",
+                    "rationale": "Also repaired.",
+                },
+                "winner": "tie",
+                "comparison_rationale": "Both are usable.",
+            }
+        )
+
+        result = live_query_eval.parse_live_judge_response(raw, "general")
+
+        self.assertEqual(result.rag_scores.correctness, 1)
+        self.assertEqual(result.rag_scores.groundedness, 5)
+        self.assertEqual(result.rag_scores.completeness, 3)
+        self.assertEqual(result.baseline_scores.correctness, 1)
+
     def test_run_live_query_saves_jsonl_and_defaults_invalid_type(self):
         fake_chain = Mock()
         fake_chain.get_context_docs.return_value = [

@@ -30,17 +30,34 @@ if ([int]$health.vector_store.total_chunks -le 0) {
 }
 
 if ($FrontendOrigin.Trim()) {
-    Write-Host "Checking CORS preflight from $FrontendOrigin" -ForegroundColor Cyan
+    $origin = $FrontendOrigin.TrimEnd("/")
+    Write-Host "Checking CORS preflight from $origin" -ForegroundColor Cyan
     $corsHeaders = @{
-        Origin = $FrontendOrigin.TrimEnd("/")
+        Origin = $origin
         "Access-Control-Request-Method" = "POST"
         "Access-Control-Request-Headers" = "content-type"
     }
-    $cors = Invoke-WebRequest -Method Options -Uri "$api/eval/live-query" -Headers $corsHeaders
+    try {
+        $cors = Invoke-WebRequest -Method Options -Uri "$api/eval/live-query" -Headers $corsHeaders
+    } catch {
+        throw @"
+CORS preflight failed for origin:
+  $origin
+
+Fix this in Railway environment variables:
+  ALLOWED_ORIGINS=$origin
+
+If you also use Vercel preview URLs, use comma-separated values:
+  ALLOWED_ORIGINS=$origin,https://your-preview-site.vercel.app
+
+After changing Railway env vars, redeploy or restart the Railway service.
+Original error: $($_.Exception.Message)
+"@
+    }
     $allowOrigin = $cors.Headers["access-control-allow-origin"]
     Write-Host "CORS allow-origin: $allowOrigin"
     if (-not $allowOrigin) {
-        throw "CORS preflight did not return access-control-allow-origin. Check Railway ALLOWED_ORIGINS."
+        throw "CORS preflight did not return access-control-allow-origin. Set Railway ALLOWED_ORIGINS=$origin and restart Railway."
     }
 }
 

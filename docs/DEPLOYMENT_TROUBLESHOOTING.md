@@ -93,6 +93,37 @@ If the backend returns an LLM error:
    ```
 4. Restart Railway.
 
+## Live Query Eval Fails With `Invalid live judge score`
+
+Example:
+
+```text
+Live query eval failed: Invalid live judge score for 'correctness': 0
+```
+
+This means the judge model returned a score outside the required `1-5` range. Newer code repairs numeric values by clamping them into range, so redeploy Railway after pulling the latest code.
+
+If this keeps happening often, use a stronger judge model than `openrouter/free`:
+
+```env
+JUDGE_PROVIDER=openrouter
+JUDGE_MODEL=your_stronger_judge_model
+```
+
+Then restart Railway.
+
+## RAG And Baseline Both Score `1/10`
+
+Check these in order:
+
+1. Confirm retrieved chunks are shown in the Vercel page.
+2. Confirm Railway `/health` has `total_chunks > 0`.
+3. Confirm the selected language matches the question language.
+4. Confirm `JUDGE_MODEL` is not a very weak/free model that ignores the scoring rubric.
+5. Check the saved live-query JSONL row in `data/eval/live_queries/` locally, or Railway logs/artifacts if available.
+
+For live query evaluation, one weak metric should not force all metrics to `1`. Groundedness may be low if context is weak, but correctness and clarity can still be higher.
+
 ## First Query Is Slow
 
 This can be normal. The first retrieval/indexing path may load BGE-M3 from the persistent Hugging Face cache.

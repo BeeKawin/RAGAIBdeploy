@@ -147,33 +147,47 @@ def _extract_json_object(text: str) -> dict[str, Any]:
     return json.loads(text[start : end + 1])
 
 
+def _coerce_score(value: Any) -> int:
+    if isinstance(value, bool):
+        raise ValueError(f"Invalid boolean score: {value}")
+    if isinstance(value, (int, float)):
+        numeric = int(round(value))
+    elif isinstance(value, str) and value.strip():
+        numeric = int(round(float(value.strip())))
+    else:
+        raise ValueError(f"Invalid score: {value}")
+    return max(1, min(5, numeric))
+
+
 def _score_from_payload(payload: dict[str, Any], target_answer_type: str) -> JudgeResult:
     if "type_alignment" not in payload and "safety" in payload:
         payload["type_alignment"] = payload["safety"]
 
+    scores: dict[str, int] = {}
     for key in ["correctness", "groundedness", "completeness", "clarity", "type_alignment"]:
-        value = payload.get(key)
-        if isinstance(value, bool) or not isinstance(value, int) or value < 1 or value > 5:
-            raise ValueError(f"Invalid live judge score for '{key}': {value}")
+        try:
+            scores[key] = _coerce_score(payload.get(key))
+        except Exception as exc:
+            raise ValueError(f"Invalid live judge score for '{key}': {payload.get(key)}") from exc
 
     rationale = payload.get("rationale", "")
     if not isinstance(rationale, str):
         raise ValueError("Live judge rationale must be a string")
 
     return JudgeResult(
-        correctness=payload["correctness"],
-        groundedness=payload["groundedness"],
-        completeness=payload["completeness"],
-        clarity=payload["clarity"],
-        type_alignment=payload["type_alignment"],
+        correctness=scores["correctness"],
+        groundedness=scores["groundedness"],
+        completeness=scores["completeness"],
+        clarity=scores["clarity"],
+        type_alignment=scores["type_alignment"],
         target_answer_type=target_answer_type,
         detected_answer_type=normalize_answer_type(payload.get("detected_answer_type")),
         overall_band=calculate_overall_band(
-            payload["correctness"],
-            payload["groundedness"],
-            payload["completeness"],
-            payload["clarity"],
-            payload["type_alignment"],
+            scores["correctness"],
+            scores["groundedness"],
+            scores["completeness"],
+            scores["clarity"],
+            scores["type_alignment"],
         ),
         rationale=rationale.strip(),
     )
@@ -252,7 +266,14 @@ Scoring rubric:
 - type_alignment: matches the target answer type.
 
 Scores must be integers from 1 to 5.
+Never use 0. If an answer is extremely poor, use 1.
 Winner must be one of: rag, baseline, tie.
+
+Important scoring behavior:
+- Score each metric independently.
+- If retrieved context is missing or weak, groundedness may be 1, but correctness, clarity, completeness, and type_alignment can still be higher if the answer deserves it.
+- Do not give all-1 scores just because one metric is weak.
+- Baseline answers do not have retrieval, so they may score lower on groundedness, but they can still be correct and clear.
 
 Target language: {_target_language(language)}
 Target answer type: {target_answer_type}
