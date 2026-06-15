@@ -229,6 +229,23 @@ textarea {
   line-height: 1.55;
 }
 
+.formula {
+  display: inline-block;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: #eef8f6;
+  color: #0f3f3a;
+  font-family: Cambria, "Times New Roman", serif;
+  font-size: 1.04em;
+}
+
+.formula-block {
+  display: block;
+  width: fit-content;
+  margin: 8px 0;
+  padding: 6px 9px;
+}
+
 .empty {
   color: var(--muted);
 }

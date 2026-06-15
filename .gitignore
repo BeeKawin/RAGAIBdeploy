@@ -8,3 +8,4 @@ data/eval/summaries/
 data/eval/live_queries/
 .pytest_cache/
 *.egg-info/
+docs/

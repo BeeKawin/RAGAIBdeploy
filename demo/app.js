@@ -27,6 +27,68 @@ function liveQueryUrl() {
   return `${apiBase}/eval/live-query`;
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function formatFormula(formula) {
+  let text = formula.trim();
+  text = text.replace(/\\frac\{([^{}]+)\}\{([^{}]+)\}/g, "($1)/($2)");
+  const replacements = [
+    [/\\Sigma/g, "∑"],
+    [/\\sum/g, "∑"],
+    [/\\Delta/g, "Δ"],
+    [/\\delta/g, "δ"],
+    [/\\theta/g, "θ"],
+    [/\\lambda/g, "λ"],
+    [/\\mu/g, "μ"],
+    [/\\omega/g, "ω"],
+    [/\\alpha/g, "α"],
+    [/\\beta/g, "β"],
+    [/\\gamma/g, "γ"],
+    [/\\pi/g, "π"],
+    [/\\rho/g, "ρ"],
+    [/\\times/g, "×"],
+    [/\\cdot/g, "·"],
+    [/\\div/g, "÷"],
+    [/\\pm/g, "±"],
+    [/\\approx/g, "≈"],
+    [/\\neq/g, "≠"],
+    [/\\leq/g, "≤"],
+    [/\\geq/g, "≥"],
+    [/\\rightarrow/g, "→"],
+    [/\\to/g, "→"],
+  ];
+  replacements.forEach(([pattern, replacement]) => {
+    text = text.replace(pattern, replacement);
+  });
+  text = text
+    .replace(/\^\{2\}/g, "²")
+    .replace(/\^\{3\}/g, "³")
+    .replace(/\^2\b/g, "²")
+    .replace(/\^3\b/g, "³")
+    .replace(/_\{([^{}]+)\}/g, "<sub>$1</sub>")
+    .replace(/\s+/g, " ")
+    .replace(/\\/g, "");
+  return text;
+}
+
+function formatAnswerHtml(answer) {
+  const escaped = escapeHtml(answer || "");
+  return escaped
+    .replace(/\$\$([\s\S]+?)\$\$/g, (_, formula) => {
+      return `<span class="formula formula-block">${formatFormula(formula)}</span>`;
+    })
+    .replace(/\$([^$\n]+?)\$/g, (_, formula) => {
+      return `<span class="formula">${formatFormula(formula)}</span>`;
+    });
+}
+
 function metricCard(label, value) {
   const node = document.createElement("div");
   node.className = "metric";
@@ -96,8 +158,8 @@ function renderResult(result) {
   $("comparisonText").classList.remove("empty");
   $("savedPath").textContent = result.saved_result_path ? `Saved to ${result.saved_result_path}` : "";
 
-  $("ragAnswer").textContent = result.rag_answer || "No RAG answer returned.";
-  $("baselineAnswer").textContent = result.baseline_answer || "No baseline answer returned.";
+  $("ragAnswer").innerHTML = formatAnswerHtml(result.rag_answer || "No RAG answer returned.");
+  $("baselineAnswer").innerHTML = formatAnswerHtml(result.baseline_answer || "No baseline answer returned.");
   $("ragAnswer").classList.remove("empty");
   $("baselineAnswer").classList.remove("empty");
   $("ragBand").textContent = bandText(result.rag_scores);
